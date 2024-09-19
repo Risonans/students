@@ -406,12 +406,27 @@ p {
 
 }
 
+.blog .section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
 .blog_articles_first {
   width: 417px;
+  background: #042C54;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 695px;
 }
 
 .blog_articles {
-  width: 327px;
+  width: 323px;
+  background: #042C54;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 323px;
 }
 
 .blog_articles_img_first {
@@ -425,10 +440,20 @@ p {
 }
 
 .blog_articles_data {
-
+  font-weight: 300;
 }
 
 .blog_articles_title_1 {
+
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25.11px;
+  line-height: 30px;
+  /* or 121% */
+
+  color: #FFFFFF;
+
 
 }
 
