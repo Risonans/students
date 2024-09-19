@@ -97,7 +97,7 @@ h3 {
 
 /*! Nick */
 /* Шрифт для каритинки №1*/
-h4 { 
+h4 {
   font-family: "ManropeBold", sans-serif;
   color: #fff;
   font-size: 25px;
@@ -251,6 +251,18 @@ p {
 
 .hero_section .hero_section__right img {
   width: 100%;
+}
+
+.hero_section .hero_section__left .left__social_approve {
+  display: flex;
+  width: 777.29px;
+  height: 39.61px;
+}
+
+.hero_section .hero_section__left .left__social_approve .people {
+  margin: 13.58px;
+  font-family: "Manrope";
+  font-size: 12px;
 }
 
 /* Секция брендов */
@@ -434,22 +446,64 @@ p {
 
 .request_early_access_section .request_it {
   font-size: 16px;
-  color: #71E5FF;
+  color: #71e5ff;
 }
 
 .request_early_access_section .container__content {
   width: 419px;
   font-size: 16px;
   line-height: 30px;
-  color: #81AFDD
+  color: #81afdd;
 }
 
 .request_early_access_section .right__cta {
   width: auto;
-  color: #FF8A71;
+  color: #ff8a71;
   font-size: 16px;
   border-bottom: 1px;
   cursor: pointer;
+}
+
+/* Запросите ранний доступ */
+
+.sign_up_and_research {
+  margin-top: 154.47px;
+  margin-bottom: 154.35px;
+  width: 1170px;
+  height: 172.65px;
+  background: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10.7236px;
+  display: flex;
+}
+
+.sign_up_and_research .upper_text {
+  font-size: 12px;
+  line-height: 30px;
+  color: #0e0e0e;
+  padding-left: 46px;
+  padding-top: 23.21px;
+}
+
+.sign_up_and_research .down_text {
+  width: 850px;
+  font-size: 24px;
+  line-height: 35px;
+  color: #000000;
+  padding-left: 46px;
+  padding-right: 34;
+}
+
+.sign_up_and_research .btn {
+  margin: 57.41px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 189.14px;
+  height: 59.4px;
+  background: #000000;
+  border-radius: 40px;
 }
 
 /* Медиа запросы для адаптива */
@@ -461,27 +515,30 @@ p {
 }
 
 /*! Nick  */
-/* шрифт для ссылок в подвале */
-h7 {
-  font-family: "Manrope", sans-serif;
-  color: #fff;
-  font-size: 14px;
-}
 
-.blog {
 
-}
-
-.blog .section {
+.section {
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 40px 10px;
+  justify-content: center;
+  /* flex-direction: column;
+  flex-wrap: wrap; */
+  gap: 50px;
+}
+
+.con_2 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.con_3 {
+  display: flex;
+  flex-direction: column;
 }
 
 .blog_articles_first {
   width: 418px;
-  background: #042C54;
+  background: #042c54;
   border-radius: 10px;
   overflow: hidden;
   height: 695px;
@@ -489,10 +546,11 @@ h7 {
 
 .blog_articles {
   width: 327px;
-  background: #042C54;
+  background: #042c54;
   border-radius: 10px;
   overflow: hidden;
   height: 323px;
+  margin-bottom: 47px;
 }
 
 .blog_articles_img_first {
@@ -553,6 +611,14 @@ h7 {
 }
 /*! Nick  */
 /* /* K */
+
+/* шрифт для ссылок в подвале */
+h7 {
+  font-family: "Manrope", sans-serif;
+  color: #fff;
+  font-size: 14px;
+}
+
 /* .Footer {
   background: #031B34;
   padding: 62px 0;
@@ -571,11 +637,11 @@ h7 {
 .end {
 }
 .Footer {
-  background: #031B34;
+  background: #031b34;
   padding: 62px 0;
-  display: flex; 
-  justify-content: center; 
-  align-items: center; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
 }
 .container {
