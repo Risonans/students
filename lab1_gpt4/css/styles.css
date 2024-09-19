@@ -386,6 +386,70 @@ p {
   width: 55%;
   color: #81afdd;
 }
+
+/*Превосходя все ожидания */
+.request_early_access_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 60vh;
+  margin-bottom: 3rem;
+}
+
+.request_early_access_section .request_early_access__left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.VRwoman__img {
+  max-width: 100%;
+  height: auto;
+}
+
+.request_early_access_section {
+  min-width: 1044px;
+  min-height: 607.53px;
+  top: 2416px;
+  left: 177px;
+}
+
+.request_early_access_section .right_header {
+  max-width: 426px;
+  font-size: 34px;
+  line-height: 1.2;
+  color: #fff;
+}
+
+.request_early_access_section .request_early_access__right {
+  margin-top: auto;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  width: 50%;
+}
+
+.request_early_access_section .request_it {
+  font-size: 16px;
+  color: #71E5FF;
+}
+
+.request_early_access_section .container__content {
+  width: 419px;
+  font-size: 16px;
+  line-height: 30px;
+  color: #81AFDD
+}
+
+.request_early_access_section .right__cta {
+  width: auto;
+  color: #FF8A71;
+  font-size: 16px;
+  border-bottom: 1px;
+  cursor: pointer;
+}
+
 /* Медиа запросы для адаптива */
 
 @media screen and (max-width: 1024px) {
