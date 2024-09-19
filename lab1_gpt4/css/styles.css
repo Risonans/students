@@ -461,11 +461,11 @@ p {
 }
 
 /*! Nick  */
-/* шрифт для ссылок в подвале */
-h7 {
-  font-family: "Manrope", sans-serif;
-  color: #fff;
-  font-size: 14px;
+
+.blog_heading {
+  /* width: 690px; */
+  /* padding: 154px 134px 116px 607px; */
+  /* margin-bottom: 116px; */
 }
 
 .blog {
@@ -553,6 +553,14 @@ h7 {
 }
 /*! Nick  */
 /* K */
+
+/* шрифт для ссылок в подвале */
+h7 {
+  font-family: "Manrope", sans-serif;
+  color: #fff;
+  font-size: 14px;
+}
+
 /* .Footer {
   background: #031B34;
   padding: 62px 0;
