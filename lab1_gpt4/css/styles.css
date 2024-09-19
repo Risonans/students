@@ -95,6 +95,23 @@ h3 {
   font-size: 24px;
 }
 
+/* Nick */
+/* Шрифт для каритинки №1*/
+h4 { 
+  font-family: "ManropeBold", sans-serif;
+  color: #fff;
+  font-size: 25px;
+}
+
+/* Шрифт для каритинок №2-5*/
+h5 {
+  font-family: "ManropeBold", sans-serif;
+  color: #fff;
+  font-size: 19px;
+}
+
+/* Nick */
+
 p {
   font-size: 16px;
   color: #fff;
@@ -362,3 +379,4 @@ p {
     flex-direction: column;
   }
 }
+
