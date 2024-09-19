@@ -396,20 +396,32 @@ p {
 
 /*! Nick  */
 
+/* .blog .container_blog {
+  max-width: 1170;
+  display: flex;
+  gap: 50px;
+} */
+
 .blog {
 
 }
 
-.container_blog {
-  max-width: ;
+.blog_articles_first {
+  width: 417px;
 }
 
 .blog_articles {
+  width: 327px;
+}
 
+.blog_articles_img_first {
+  width: 100%;
+  height: 287px;
 }
 
 .blog_articles_img {
-
+  width: 100%;
+  height: 130px;
 }
 
 .blog_articles_data {
