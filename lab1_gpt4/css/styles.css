@@ -519,11 +519,11 @@ padding-right: 34;
 
 /*! Nick  */
 
-/* .blog .container_blog {
-  max-width: 1170;
-  display: flex;
-  gap: 50px;
-} */
+.blog_heading {
+  /* width: 690px; */
+  /* padding: 154px 134px 116px 607px; */
+  /* margin-bottom: 116px; */
+}
 
 .blog {
 
@@ -537,7 +537,7 @@ padding-right: 34;
 }
 
 .blog_articles_first {
-  width: 417px;
+  width: 418px;
   background: #042C54;
   border-radius: 10px;
   overflow: hidden;
@@ -545,7 +545,7 @@ padding-right: 34;
 }
 
 .blog_articles {
-  width: 323px;
+  width: 327px;
   background: #042C54;
   border-radius: 10px;
   overflow: hidden;
@@ -553,19 +553,21 @@ padding-right: 34;
 }
 
 .blog_articles_img_first {
-  width: 100%;
+  width: 419px;
   height: 287px;
 }
 
 .blog_articles_img {
-  width: 100%;
+  width: 329px;
   height: 130px;
 }
 
 .blog_articles_data {
   /* font-weight: 300; */
   font-size: 12px;
-  margin-bottom: 0.25px;
+  margin-bottom: 1px;
+  opacity: 0.7;
+  color: #fff;
   /* font-family: 'Manrope'; */
 }
 
@@ -587,15 +589,35 @@ padding-right: 34;
   margin-bottom: 13px;
 }
 
-.blog_articles_nav {
+.blog_articles_nav_1 {
+  margin-bottom: 27px;
+}
 
+.blog_articles_nav {
+  margin-bottom: 14px;
+}
+
+.blog_articles_link_1 {
+  margin-bottom: 27px;
+  font-size: 12px;
+  opacity: 0.7;
 }
 
 .blog_articles_link {
-
+  margin-bottom: 14px;
+  font-size: 12px;
+  opacity: 0.7;
 }
 /*! Nick  */
 /* K */
+
+/* шрифт для ссылок в подвале */
+h7 {
+  font-family: "Manrope", sans-serif;
+  color: #fff;
+  font-size: 14px;
+}
+
 /* .Footer {
   background: #031B34;
   padding: 62px 0;
@@ -611,4 +633,32 @@ padding-right: 34;
 }
 .item__link {
 } */
+.end {
+}
+.Footer {
+  background: #031B34;
+  padding: 62px 0;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh;
+}
+.container {
+  text-align: center;
+}
+.enticing__question {
+}
+.buttons_enticing {
+  margin-top: 100px;
+}
+.enticing_singin {
+  border: 1px solid white; /* Устанавливаем белую рамку */
+  background-color: transparent; /* Делаем фон прозрачным, если нужно */
+  color: white; /* Цвет текста кнопки */
+  padding: 65px 337.5px; /* Отступы внутри кнопки */
+  cursor: pointer; /* Указатель при наведении */
+}
+.btn {
+}
+
 /* K */
