@@ -95,7 +95,7 @@ h3 {
   font-size: 24px;
 }
 
-/* Nick */
+/*! Nick */
 /* Шрифт для каритинки №1*/
 h4 { 
   font-family: "ManropeBold", sans-serif;
@@ -110,7 +110,19 @@ h5 {
   font-size: 19px;
 }
 
-/* Nick */
+/* Шрифт для дат */
+h6 {
+  font-family: "ManropeBold", sans-serif;
+  color: #fff;
+  font-size: 12px;
+}
+/* Ссылки */
+.blog_articles_nav {
+  font-family: "ManropeBold", sans-serif;
+  color: #fff;
+  font-size: 12px;
+}
+/*! Nick */
 
 p {
   font-size: 16px;
@@ -135,10 +147,12 @@ p {
   background-color: #ff4820;
 }
 
+/* ? Это КОНТЕЙНЕР!? */
 .section {
   max-width: 1169px;
   width: 100%;
 }
+/* ? */
 
 .lined_header {
   background: url("../assets/img/gradient_line.svg") no-repeat 0 0 transparent;
