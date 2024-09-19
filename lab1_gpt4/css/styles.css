@@ -461,12 +461,12 @@ p {
 }
 
 /*! Nick  */
-
-/* .blog .container_blog {
-  max-width: 1170;
-  display: flex;
-  gap: 50px;
-} */
+/* шрифт для ссылок в подвале */
+h7 {
+  font-family: "Manrope", sans-serif;
+  color: #fff;
+  font-size: 14px;
+}
 
 .blog {
 
