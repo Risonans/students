@@ -101,6 +101,7 @@ h4 {
   font-family: "ManropeBold", sans-serif;
   color: #fff;
   font-size: 25px;
+  margin: 0;
 }
 
 /* Шрифт для каритинок №2-5*/
@@ -108,11 +109,12 @@ h5 {
   font-family: "ManropeBold", sans-serif;
   color: #fff;
   font-size: 19px;
+  margin: 0;
 }
 
 /* Шрифт для дат */
 h6 {
-  font-family: "ManropeBold", sans-serif;
+  font-family: "Manrope", sans-serif;
   color: #fff;
   font-size: 12px;
 }
@@ -474,7 +476,7 @@ p {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 40px 10px;
 }
 
 .blog_articles_first {
@@ -504,22 +506,29 @@ p {
 }
 
 .blog_articles_data {
-  font-weight: 300;
+  /* font-weight: 300; */
+  font-size: 12px;
+  margin-bottom: 0.25px;
+  /* font-family: 'Manrope'; */
 }
 
-/* .blog_articles_title_1 {
+.blog_text_1 {
+  padding: 29px 30px;
+}
 
-  font-family: 'Manrope';
-  font-style: normal;
-  font-weight: 800;
-  font-size: 25.11px;
-  line-height: 30px;
-  or 121%
+.blog_text {
+  padding: 7px 26px 14px 17px;
+}
 
-  color: #FFFFFF;
+.blog_articles_title_1 {
+  font-size: 25px;
+  margin-bottom: 187px;
+}
 
-
-} */
+.blog_articles_title {
+  font-size: 19px;
+  margin-bottom: 13px;
+}
 
 .blog_articles_nav {
 
