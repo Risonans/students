@@ -568,4 +568,32 @@ p {
 }
 .item__link {
 } */
+.end {
+}
+.Footer {
+  background: #031B34;
+  padding: 62px 0;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh;
+}
+.container {
+  text-align: center;
+}
+.enticing__question {
+}
+.buttons_enticing {
+  margin-top: 100px;
+}
+.enticing_singin {
+  border: 1px solid white; /* Устанавливаем белую рамку */
+  background-color: transparent; /* Делаем фон прозрачным, если нужно */
+  color: white; /* Цвет текста кнопки */
+  padding: 65px 337.5px; /* Отступы внутри кнопки */
+  cursor: pointer; /* Указатель при наведении */
+}
+.btn {
+}
+
 /* K */
