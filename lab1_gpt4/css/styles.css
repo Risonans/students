@@ -95,6 +95,8 @@ h3 {
   font-size: 24px;
 }
 
+
+
 /*! Nick */
 /* Шрифт для каритинки №1*/
 h4 { 
@@ -251,6 +253,19 @@ p {
 
 .hero_section .hero_section__right img {
   width: 100%;
+}
+
+.hero_section .hero_section__left .left__social_approve {
+display: flex;
+width: 777.29px;
+height: 39.61px;
+
+}
+
+.hero_section .hero_section__left .left__social_approve .people {
+margin: 13.58px;
+font-family: 'Manrope';
+font-size: 12px;
 }
 
 /* Секция брендов */
@@ -450,6 +465,48 @@ p {
   font-size: 16px;
   border-bottom: 1px;
   cursor: pointer;
+}
+
+/* Запросите ранний доступ */
+
+.sign_up_and_research {
+  margin-top: 154.47px;
+  margin-bottom: 154.35px;
+  width: 1170px;
+  height: 172.65px;
+  background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10.7236px;
+  display: flex;
+}
+
+.sign_up_and_research .upper_text {
+font-size: 12px;
+line-height: 30px;
+color: #0E0E0E;
+padding-left: 46px;
+padding-top: 23.21px;
+}
+
+.sign_up_and_research .down_text {
+width: 850px;
+font-size: 24px;
+line-height: 35px;
+color: #000000;
+padding-left: 46px;
+padding-right: 34;
+}
+
+.sign_up_and_research .btn {
+  margin: 57.41px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 189.14px;
+  height: 59.4px;
+  background: #000000;
+  border-radius: 40px;
 }
 
 /* Медиа запросы для адаптива */
