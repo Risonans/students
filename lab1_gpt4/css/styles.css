@@ -671,7 +671,8 @@ h7 {
   text-align: center;
 }
 .enticing__question {
-  padding: 196px 0;
+  padding-top: 196px ;
+  font-size: 80px;
 }
 .buttons_enticing {
   padding: 64px 0;
@@ -765,7 +766,6 @@ h7 {
   font-style: normal;
   font-size: 14px;
   line-height: 19px;
-
   color: #FFFFFF;
 }
 .Footer_Footer_company_y {
@@ -809,6 +809,7 @@ h7 {
   font-size: 14px;
   line-height: 19px;
   margin-left: 141px;
+  
 
 
   color: #FFFFFF;
@@ -844,11 +845,12 @@ h7 {
 .footer2 {
   text-align: center;
   min-width: 100%;
-  height: 16px;
   background: #040C18;
+  
 }
 
 .Footer_Footer_Footer {
+ 
 }/* самый низ дно */
 .footer_03 {
 
