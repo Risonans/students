@@ -656,7 +656,7 @@ h7 {
   border: 1px solid white; /* Устанавливаем белую рамку 
   background-color: transparent; /* Делаем фон прозрачным, если нужно 
   color: white; /* Цвет текста кнопки */
-  padding: 18px 30px; /* Отступы внутри кнопки 
+  /* padding: 18px 30px; */ /* Отступы внутри кнопки 
   cursor: pointer; /* Указатель при наведении 
 }
 .btn {
@@ -777,12 +777,6 @@ h7 {
   opacity: 0.7;
 
   color: #FFFFFF;
-  /* width: 50px;
-  height: 16px;
-  font-size: 12px;
-  line-height: 16px;
-  padding-top: 34px;
-  opacity: 0,7; */
 
 }
 .Footer_Footer_company_p {
