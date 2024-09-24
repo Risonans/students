@@ -28,8 +28,9 @@
 
 body {
   background: #031b34;
-  padding: 0 2rem;
+  padding-top: 8px;
   height: 100%;
+  margin: 0;
   
 
 
@@ -858,21 +859,18 @@ h7 {
   opacity: 0.7;
 
 }
-
+.footer22 {
+}
 .footer2 {
   text-align: center;
   min-width: 100%;
   background: #040C18;
-  background-size: auto;
   
 }
 
 .Footer_Footer_Footer {
- 
-}/* самый низ дно */
+}
 .footer_03 {
-
-
 }
 h11{
 font-family: Manrope;
