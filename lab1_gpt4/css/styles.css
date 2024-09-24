@@ -613,7 +613,15 @@ p {
   opacity: 0.7;
 }
 /*! Nick  */
-/* K */
+/* /* K */
+
+/* шрифт для ссылок в подвале */
+h7 {
+  font-family: "Manrope", sans-serif;
+  color: #fff;
+  font-size: 14px;
+}
+
 /* .Footer {
   background: #031B34;
   padding: 62px 0;
@@ -628,15 +636,15 @@ p {
 
 }
 .item__link {
-} */
+} 
 .end {
 }
 .Footer {
-  background: #031B34;
+  background: #031b34;
   padding: 62px 0;
-  display: flex; 
-  justify-content: center; 
-  align-items: center; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
 }
 .container {
@@ -911,5 +919,4 @@ h13{
   text-align: left;
   color: #fff;
 }
-/* K */
 /* K */
