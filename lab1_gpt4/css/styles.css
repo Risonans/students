@@ -18,7 +18,7 @@
 
 * {
   padding: 0;
-  margin: 0;
+
   box-sizing: border-box;
   font-family: "Manrope", sans-serif;
   outline: none;
@@ -29,13 +29,16 @@
 body {
   background: #031b34;
   padding: 0 2rem;
-}
+  height: 100%;
+  
+
 
 .page {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
+  
 }
 
 a {
@@ -672,8 +675,13 @@ h7 {
 }
 .enticing__question {
   padding-top: 196px ;
-  font-size: 80px;
+  margin:  0 15% 0 15%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  
 }
+
 .buttons_enticing {
   padding: 64px 0;
   display:flex;
@@ -699,9 +707,14 @@ h7 {
   padding-right: 288px;
 }
 .street {
+  opacity: 0.7;
   width: 186px;
   height: 64px;
   
+}
+.yadurak li {
+  margin-bottom: 20px;
+
 }
 .Footer_Footer_links {
   width: 54px;
@@ -709,6 +722,8 @@ h7 {
   font-style: normal;
   font-size: 14px;
   line-height: 19px;
+  opacity: 0.7;
+
 
   color: #FFFFFF;
 
@@ -746,6 +761,11 @@ h7 {
 
   color: #FFFFFF;
 }
+
+.nedurak li{
+  margin-bottom: 20px;
+
+}
 .Footer_Footer_links_сontacts {
   width: 52px;
   height: 16px;
@@ -767,6 +787,9 @@ h7 {
   font-size: 14px;
   line-height: 19px;
   color: #FFFFFF;
+  opacity: 0.7;
+
+  
 }
 .Footer_Footer_company_y {
   padding-top: 34px;
@@ -803,14 +826,14 @@ h7 {
   font-size: 14px;
   line-height: 19px;
   margin-left: 141px;
-  
+
 
 
   color: #FFFFFF;
 }
 .street_contacts {
   text-align: left;
-  margin-top: 34px;
+  
   /* Get in touch */
   width: 152px;
   height: 32px;
@@ -840,6 +863,7 @@ h7 {
   text-align: center;
   min-width: 100%;
   background: #040C18;
+  background-size: auto;
   
 }
 
@@ -849,5 +873,50 @@ h7 {
 .footer_03 {
 
 
+}
+h11{
+font-family: Manrope;
+font-size: 14px;
+font-weight: 800;
+line-height: 19.12px;
+text-align: left;
+color: #fff;
+}
+h12{
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 19.12px;
+  text-align: left;
+  color: #fff;
+  padding-left: 178px;
+}
+h12{
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 19.12px;
+  text-align: left;
+  color: #fff;
+  /*  */padding-left: 178px;
+  display: flex;
+}
+h12{
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 19.12px;
+  text-align: left;
+  color: #fff;
+  display: flex;
+  
+}
+h13{
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 19.12px;
+  text-align: left;
+  color: #fff;
 }
 /* K */
