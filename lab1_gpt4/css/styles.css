@@ -666,11 +666,11 @@ h7 {
 .btn {
 }
  */
- .Footer {
+/*  .Footer {
 
 }
 .Footer_string {
-}
+} */
 .container {
   text-align: center;
 }
@@ -688,14 +688,14 @@ h7 {
   display:flex;
   justify-content:center;
 }
-.buttons_ {
+/* .buttons_ {
   
-}
+} */
 .enticing_singin {
   border: 1px solid white; 
 }
-.btn {
-}
+/* .btn {
+} */
 .footer1 {
   padding: 180px;
 }
@@ -860,8 +860,8 @@ h7 {
   opacity: 0.7;
 
 }
-.footer22 {
-}
+/* .footer22 {
+} */
 .footer2 {
   text-align: center;
   min-width: 100%;
@@ -869,10 +869,10 @@ h7 {
   
 }
 
-.Footer_Footer_Footer {
+/* .Footer_Footer_Footer {
 }
 .footer_03 {
-}
+} */
 h11{
 font-family: Manrope;
 font-size: 14px;
